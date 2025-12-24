@@ -1,0 +1,11 @@
+mes-config-ms:
+  commandesLast: 10
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
